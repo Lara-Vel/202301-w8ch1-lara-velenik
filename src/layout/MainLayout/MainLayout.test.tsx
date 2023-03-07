@@ -9,7 +9,7 @@ describe('Given a main layout', () => {
         <MainLayout />
       </BrowserRouter>
     );
-    const titleElement = screen.getByText('app-container');
+    const titleElement = screen.getByTestId('app-container');
     expect(titleElement).toBeInTheDocument();
   });
 });
