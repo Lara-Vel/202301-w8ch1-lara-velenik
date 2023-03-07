@@ -1,11 +1,9 @@
 import './App.css';
+import { router } from './router/app-router';
+import { RouterProvider } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>STAR WARS</h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
