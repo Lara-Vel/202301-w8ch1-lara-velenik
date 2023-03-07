@@ -4,7 +4,7 @@ import Header from '../../features/header/Header';
 
 const MainLayout = () => {
   return (
-    <div className="app-container">
+    <div data-testid="app-container">
       <Header />
       <main>
         <Outlet />
